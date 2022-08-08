@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px,
+    rgb(209, 213, 219) 0px 0px 0px 1px inset;
+  border-radius: 0.5em;
+  padding: 1.5em;
+}
+
+.form-group {
+  margin-top: 2em;
+}
+
+.form-control {
+  margin-top: 0.5em;
+  width: 20em;
+}
+
+.btn {
+  margin-top: 2.5em;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
