@@ -104,5 +104,7 @@
       }
     }
   },
-  "defaultProject": "AdventFinalProject"
+  "cli": {
+    "analytics": "218d38fc-0da1-4997-94b6-5aa881c16728"
+  }
 }

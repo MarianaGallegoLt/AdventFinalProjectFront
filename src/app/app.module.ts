@@ -2,10 +2,9 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { AppRoutingModule } from './app-routing-module';
+import { Routing } from './app-routing-module';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { AngularMaterialModule } from './shared/angular-material/angular-material.module';
-import { LoginComponent } from './container-update/pages/login/login.component';
+import { ContainerUpdateModule } from './container-update/container-update.module';
 
 @NgModule({
   declarations: [
@@ -13,9 +12,9 @@ import { LoginComponent } from './container-update/pages/login/login.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
+    Routing,
     BrowserAnimationsModule,
-    AngularMaterialModule
+    ContainerUpdateModule
   ],
   providers: [],
   bootstrap: [AppComponent]

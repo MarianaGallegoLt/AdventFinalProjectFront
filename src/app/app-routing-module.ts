@@ -5,9 +5,8 @@ import { LoginComponent } from './container-update/pages/login/login.component';
 
 const routes: Routes = [
     {
-        path: '',
-        component: LoginComponent,
-        pathMatch: 'full'
+        path: 'login',
+        component: LoginComponent
     },
     {
         path: 'container-list',
@@ -15,13 +14,4 @@ const routes: Routes = [
     }
 ];
 
-@NgModule({
-    imports:[
-        RouterModule.forRoot(routes)
-    ],
-    exports:[
-        RouterModule
-    ]
-})
-
-export class AppRoutingModule {}
+export const Routing = RouterModule.forRoot(routes);
