@@ -1,33 +1,33 @@
-<!-- <div class="container">
+<div class="cont">
   <form>
-    <div class="form-group">
-      <label for="exampleInputEmail1">Username</label>
-      <input
-        type="email"
-        class="form-control"
-        id="exampleInputEmail1"
-        aria-describedby="emailHelp"
-        placeholder="email@example.com"
-      />
-    </div>
-    <div class="form-group">
-      <label for="exampleInputPassword1">Password</label>
-      <input
-        type="password"
-        class="form-control"
-        id="exampleInputPassword1"
-        placeholder="Password"
-      />
+    <img src="/assets/images/eModal-logo.jpg" alt="eModalLogo" class="login-logo">
+    <div class="form-inputs">
+      <div class="form-group">
+        <mat-form-field appearance="standard">
+          <mat-label>Username</mat-label>
+          <input
+            matInput
+            class="form-control"
+            placeholder="email@example.com"
+          />
+        </mat-form-field>
+      </div>
+      <div class="form-group">
+        <mat-form-field appearance="standard">
+          <mat-label>Password</mat-label>
+          <input
+            matInput
+            class="form-control"
+            type="password"
+            placeholder="Password"
+          />
+        </mat-form-field>
+      </div>
     </div>
     <div class="button">
-        <button type="submit" class="btn btn-primary">Login</button>
+      <button mat-raised-button routerLink="/container-list" class="login-button" color="primary">
+        Login
+      </button>
     </div>
   </form>
-</div> -->
-
-<div class="example-container">
-  <mat-form-field appearance="fill">
-    <mat-label>Enter your email</mat-label>
-    <input matInput placeholder="pat@example.com">
-  </mat-form-field>
 </div>
