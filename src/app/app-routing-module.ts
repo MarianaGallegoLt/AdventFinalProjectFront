@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { ContainerListComponent } from './container-update/pages/container-list/container-list.component';
+import { IndexComponent } from './container-update/pages/index/index.component';
 import { LoginComponent } from './container-update/pages/login/login.component';
 import { PaymentProcessComponent } from './container-update/pages/payment-process/payment-process.component';
 import { RequestMoveComponent } from './container-update/pages/request-move/request-move.component';
@@ -8,7 +9,7 @@ import { RequestMoveComponent } from './container-update/pages/request-move/requ
 const routes: Routes = [
     {
         path: '',
-        component: LoginComponent
+        component: IndexComponent
     },
     {
         path: 'login',

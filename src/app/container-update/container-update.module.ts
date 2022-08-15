@@ -13,6 +13,7 @@ import { ContainersTableComponent } from './components/container-list-components
 import { SharedModule } from '../shared/shared.module';
 import { RequestMoveTableComponent } from './components/request-move-components/request-move-table/request-move-table.component';
 import { Routing } from '../app-routing-module';
+import { IndexComponent } from './pages/index/index.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { Routing } from '../app-routing-module';
     PaymentCardComponent,
     ItemsTableComponent,
     ContainersTableComponent,
-    RequestMoveTableComponent
+    RequestMoveTableComponent,
+    IndexComponent
   ],
   imports: [
     CommonModule,
